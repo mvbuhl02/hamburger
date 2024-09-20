@@ -1,0 +1,15 @@
+/* ContatoInfo.css */
+
+.contato-info {
+    width: 40%;
+  }
+  
+  .contato-info p {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .contato-info {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,21 @@
+/* Contato.css */
+
+#contato {
+    padding: 50px 0;
+  }
+  
+  #contato h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #contato .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  @media (max-width: 768px) {
+    #contato .container {
+      flex-direction: column;
+    }
+  }

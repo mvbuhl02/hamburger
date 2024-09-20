@@ -1,0 +1,29 @@
+/* ContatoForm.css */
+
+.contato-form {
+    width: 50%;
+  }
+  
+  .contato-form input,
+  .contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contato-form button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .contato-form {
+      width: 100%;
+    }
+  }
