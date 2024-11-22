@@ -1,0 +1,61 @@
+/* Footer.css */
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    font-family: sans-serif;
+  }
+  
+  .footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contato-footer {
+    flex: 1 0 300px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-title {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #fff;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+  
+  .redes-sociais-footer {
+    flex: 1 0 300px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .copyright-footer {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 20px;
+  }

@@ -1,0 +1,60 @@
+/* ContatoForm.css */
+
+  .contato-form-div {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f0f0f0
+  }
+
+  .contato-formm {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .contato-form-div h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contato-form-div div {
+    margin-bottom: 15px;
+  }
+  
+  .contato-form-div label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contato-form-div input,
+  .contato-formdiv textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contato-form-div textarea {
+    height: 150px;
+    width: 100%;
+  }
+  
+  .contato-form-div button {
+    background-color: #23A6F0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contato-form-div button:hover {
+    background-color: #1e88c7;
+  }
